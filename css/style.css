@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: #000;
+}
+
+footer {
+    width: 1800px;
+    height: 100px;
+    background-color: #C6CEEB;
+    margin: 0 auto;
+}
+
+.footer-links ul {
+    display: flex;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.footer-copyright {
+    text-align: center;
+}
